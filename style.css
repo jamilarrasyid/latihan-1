@@ -32,6 +32,10 @@
             color: rgb(255, 255, 255);
         }
 
+        h3 {
+            font-weight: bold;
+        }
+
         a {
             color: rgb(255, 255, 255);
             text-decoration: none;
@@ -40,6 +44,10 @@
 
         img {
             width: 100%;
+        }
+
+        img.logo {
+            width: 8%;
         }
 
         table{
@@ -53,3 +61,4 @@
         th.kr {
             text-align: left;
         }
+        
