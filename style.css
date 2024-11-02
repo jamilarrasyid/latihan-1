@@ -1,70 +1,74 @@
-        .b {
-            font-weight: bold;
-        }
+        .b {font-weight: bold;}
         
-        .k {
-            text-align: right;
-        }
+        .k {text-align: right;}
 
-        .t {
-            text-align: center;
-        }
+        .t {text-align: center;}
 
         body {
-            background-color: rgb(52, 52, 52);
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(29, 30, 32);
+            font-weight: bold;
         }
 
-        .u {
-            text-decoration: underline;
-        }
+        .u { text-decoration: underline;}
 
-        .ki {
-            text-align: left;
-        }
+        .ki {text-align: left;}
 
-        .wt {
-            color: rgb(255, 255, 255);
-        }
+        .wt {color: rgb(255, 255, 255);}
 
         h1 {
-            font-weight: bold;
             text-align: center;
-            color: rgb(255, 255, 255);
-        }
-
-        .h1 {
-            font-weight: bold;
-            text-align: center;
-            color: rgb(255, 255, 255);
-        }
-
-        h3 {
-            font-weight: bold;
+            color: rgb(255, 255, 255);    
         }
 
         a {
             color: rgb(255, 255, 255);
             text-decoration: none;
-            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
-        img {
-            width: 100%;
-        }
+        img {width: 100%;}
 
         img.logo {
-            width: 8%;
+            width: 50px;
+            float: left;
+            padding-left: 1%;
         }
 
-        table{
-            width: 100%;
+        table {
+            border-color: rgba(247, 247, 247, 0.648);
+            width: 90%;
         }
 
-        th.kn {
-            text-align: right;
+        table.bg { 
+            background-color: rgba(0, 238, 255, 0.372);
+            border-radius: 12px;
         }
 
-        th.kr {
+        table.bg1 {width: auto;
+            background-color: rgba(0, 238, 255, 0.372);
+            padding-block-end: 1%;
+            float: left;
             text-align: left;
+            border-radius: 12px;
+
         }
-        
+ 
+        th.kn {text-align: right;}
+
+        th.kr {text-align: left;}
+
+        td {border: transparent;}
+
+        .header-bar {
+            border-top: 3px solid;
+            border-image-source: linear-gradient( 83.21deg, #ffe000 0%, #e55235 100%);
+            border-image-slice: 22;
+        }
+
+        .sticky-top {
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+        }
+
